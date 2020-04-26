@@ -96,10 +96,10 @@ const Dashboard: React.FC = () => {
                   </td>
                   <td>{transaction.category.title}</td>
                   <td>
-                    {/* {transaction.created_at} */}
-                    {Intl.DateTimeFormat('pt-BR').format(
+                    {transaction.created_at}
+                    {/* {Intl.DateTimeFormat('pt-BR').format(
                       transaction.created_at,
-                    )}
+                    )} */}
                   </td>
                 </tr>
               ))}
